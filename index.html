@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="display" readonly>
+            <div class="row">
+                <button onclick="agregarAlDisplay('7')">7</button>
+                <button onclick="agregarAlDisplay('8')">8</button>
+                <button onclick="agregarAlDisplay('9')">9</button>
+                <button onclick="agregarAlDisplay('+')">+</button>
+            </div>
+            
+            <div class="row">
+                <button onclick="agregarAlDisplay('4')">4</button>
+                <button onclick="agregarAlDisplay('5')">5</button>
+                <button onclick="agregarAlDisplay('6')">6</button>
+                <button onclick="agregarAlDisplay('-')">-</button>
+            </div>
+            
+            <div class="row">
+                <button onclick="agregarAlDisplay('1')">1</button>
+                <button onclick="agregarAlDisplay('2')">2</button>
+                <button onclick="agregarAlDisplay('3')">3</button>
+                <button onclick="agregarAlDisplay('*')">*</button>
+            </div>
+            
+            <div class="row">
+                <button onclick="limpiarDisplay()">C</button>
+                <button onclick="agregarAlDisplay('0')">0</button>
+                <button onclick="calcularResultado()">=</button>
+                <button onclick="agregarAlDisplay('/')">/</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
